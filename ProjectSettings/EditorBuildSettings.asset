@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Sceny/SampleScene.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Sceny/Menu.unity
+    guid: aa634a2a6c034c5459d3939271704938
+  - enabled: 1
+    path: Assets/Sceny/Prolog/Pokoj Gondoli.unity
+    guid: 309fa5ceccdf8414bbaca1f1e2488942
+  - enabled: 1
+    path: "Assets/Sceny/Prolog/\u0141azienka.unity"
+    guid: 34d37b141c1999a488ebe6aa6fe6e8b1
+  - enabled: 1
+    path: "Assets/Sceny/Prolog/Z\u0119by.unity"
+    guid: d2c641e509b73e44eaa177f70306e177
+  - enabled: 1
+    path: Assets/Sceny/Prolog/Przedblocze.unity
+    guid: 3216817265386a54cb02cb0324657836
+  - enabled: 1
+    path: Assets/Sceny/Prolog/Tramwaj.unity
+    guid: 8d597e56d402b184885df7650263a566
+  - enabled: 1
+    path: Assets/Sceny/Prolog/Przeddom.unity
+    guid: 89663764e5dac0e428fa82f915d6fcaa
+  - enabled: 1
+    path: Assets/Sceny/Prolog/DomKaczki.unity
+    guid: 313cd0892e5faeb45886e4c10264880c
+  - enabled: 1
+    path: Assets/Sceny/Prolog/Szafa.unity
+    guid: 96522bcbd6495bd4e8f42ba436f0a23d
+  - enabled: 1
+    path: Assets/Sceny/Prehistoria/Przedjaskinium.unity
+    guid: b9ad5577751d4364ba8e1a244258b5a3
+  - enabled: 1
+    path: Assets/Sceny/Prehistoria/Jaskinia.unity
+    guid: 7320ea65199852747bd0d49b1ece9042
+  - enabled: 1
+    path: Assets/Sceny/GameOver.unity
+    guid: f944bf0ea4da94f4e8ea9307001985d4
+  - enabled: 1
+    path: Assets/Sceny/Cyberpunk/PrzedbloczeCP.unity
+    guid: 07fc17c08df17c643a3d666b5e8c6235
+  m_configObjects: {}

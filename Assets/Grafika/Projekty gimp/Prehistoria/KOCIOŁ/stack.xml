@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<image h="1080" w="1920"><stack><layer composite-op="svg:src-over" name="ognisko" opacity="1.0" src="data/000.png" visibility="visible" x="1441" y="759" /><layer composite-op="svg:src-over" name="kociol na tył" opacity="1.0" src="data/001.png" visibility="visible" x="1493" y="638" /><layer composite-op="svg:src-over" name="kocioł" opacity="1.0" src="data/002.png" visibility="visible" x="1437" y="576" /><layer composite-op="svg:src-over" name="Tło" opacity="1.0" src="data/003.png" visibility="visible" x="-220" y="-209" /></stack></image>
