@@ -4370,7 +4370,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4969383112410882, guid: f635e16bc752a9c4f8b074b077801515, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -1.51
+      value: -1.26
       objectReference: {fileID: 0}
     - target: {fileID: 4969383112410882, guid: f635e16bc752a9c4f8b074b077801515, type: 2}
       propertyPath: m_LocalPosition.z
@@ -4425,6 +4425,22 @@ Prefab:
         type: 2}
       propertyPath: m_isInputParsingRequired
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1588480625770854, guid: f635e16bc752a9c4f8b074b077801515, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4647096321114086, guid: f635e16bc752a9c4f8b074b077801515, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 4647096321114086, guid: f635e16bc752a9c4f8b074b077801515, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 1.71
+      objectReference: {fileID: 0}
+    - target: {fileID: 4647096321114086, guid: f635e16bc752a9c4f8b074b077801515, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f635e16bc752a9c4f8b074b077801515, type: 2}

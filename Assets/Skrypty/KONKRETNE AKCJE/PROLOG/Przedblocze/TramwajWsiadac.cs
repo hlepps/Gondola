@@ -11,7 +11,7 @@ public class TramwajWsiadac : MonoBehaviour {
     // Use this for initialization
     void Start()
     {
-
+        scene = GameObject.FindGameObjectWithTag("SceneManager");
     }
 
     // Update is called once per frame

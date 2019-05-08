@@ -130,8 +130,8 @@ public class Jaskinia : MonoBehaviour {
             if (g)
             {
                 //kot.say("O co ci chodzi?", 1.3f, 0, otsochodzi);
-                kermit.say("Chłopaki, jesteśmy zgubieni", 4.5f, 0);
-                kermit.say("Ale spokojnie - mam plan", 2.9f, 1);
+                kermit.say("Chłopaki", 1.5f, 0, chopaki);
+                kermit.say("Mam plan", 1.5f, 1);
                 kermit.say("Mam płyte do konsolety co nas stąd zabierze", 3.5f, 2);
                 kermit.say("Tylko jest jeden problem", 4.1f, 3);
 

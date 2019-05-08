@@ -33,25 +33,31 @@ public class SceneStart : MonoBehaviour {
 
         }
 	}
-	
-	// Update is called once per frame
+
+    // Update is called once per frame
+    bool x;
 	void Update () {
-        if (!Global.GetComponent<Global>().getGonbool("animacjaStartGry"))
+        if (x)
         {
-            ///*
-            Gondola.GetComponent<Gondola>().playAnim(anim, 0);
-            if (Gondola.GetComponent<Gondola>().ResetAction(1))
+            if (!Global.GetComponent<Global>().getGonbool("animacjaStartGry"))
             {
-                Global.GetComponent<Global>().setGonbool("animacjaStartGry", true);
-            };
-            //*/
-        }
+                ///*
+                Gondola.GetComponent<Gondola>().playAnim(anim, 0);
+                if (Gondola.GetComponent<Gondola>().ResetAction(1))
+                {
+                    Global.GetComponent<Global>().setGonbool("animacjaStartGry", true);
+                };
+                //*/
+            }
 
-        if (!Global.GetComponent<Global>().getGonbool("umyjzeby") && Global.GetComponent<Global>().getGonbool("animacjaStartGry"))
-        {
-            Global.GetComponent<Global>().setGonbool("umyjzeby", true);
-            Quest.GetComponent<Quest>().newQuest("Umyj zęby");
+            if (!Global.GetComponent<Global>().getGonbool("umyjzeby") && Global.GetComponent<Global>().getGonbool("animacjaStartGry"))
+            {
+                Global.GetComponent<Global>().setGonbool("umyjzeby", true);
+                Quest.GetComponent<Quest>().newQuest("Umyj zęby");
 
+            }
         }
+        else
+            x = true;
     }
 }

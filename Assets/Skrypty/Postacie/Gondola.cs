@@ -75,6 +75,7 @@ using UnityEngine.AI;
         {
             rb = GetComponent<Rigidbody2D>();
             m_Agent = GetComponent<NavMeshAgent>();
+            Global = GameObject.FindGameObjectWithTag("Global");
 
         }
 
