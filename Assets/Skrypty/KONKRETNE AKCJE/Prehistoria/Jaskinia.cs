@@ -24,7 +24,7 @@ public class Jaskinia : MonoBehaviour {
         gondola = gGondola.GetComponent<Gondola>();
 
         ///DEBUG:
-        //eq.GetComponent<EQ>().addItem(8);
+        eq.GetComponent<EQ>().addItem(8);
         ///
 
 

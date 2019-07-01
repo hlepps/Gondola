@@ -61,6 +61,12 @@ public class Kot : MonoBehaviour {
         rb = GetComponent<Rigidbody2D>();
         m_Agent = GetComponent<NavMeshAgent>();
         kierunek = 2;
+
+        if (moveOff)
+        {
+            m_Agent.enabled = false;
+            transform.Rotate(-90, 0, 0);
+        }
     }
 
     private void Update()
@@ -81,6 +87,8 @@ public class Kot : MonoBehaviour {
         startpos = transform.position;
     }
 
+    public bool moveOff;
+
     private float AngleBetweenVector2(Vector2 vec1, Vector2 vec2)
     {
         Vector2 difference = vec2 - vec1;
@@ -91,6 +99,15 @@ public class Kot : MonoBehaviour {
 
     // Update is called once per frame
     void FixedUpdate () {
+
+        if (moveOff)
+        {
+            m_Agent.enabled = false;
+        }
+        if (!moveOff)
+        {
+            m_Agent.enabled = true;
+        }
 
         float dr = farScale + (nearScale - farScale) * (-transform.position.y * scaleMultiplier);
         transform.localScale = new Vector3(dr, dr, dr);
@@ -142,7 +159,7 @@ public class Kot : MonoBehaviour {
 
            
 
-        if (!saying && !animationing && !Global.GetComponent<Global>().paused && !Global.GetComponent<Global>().waiting)
+        if (!saying && !animationing && !Global.GetComponent<Global>().paused && !Global.GetComponent<Global>().waiting && !moveOff)
         {
 
             ///
@@ -269,6 +286,7 @@ public class Kot : MonoBehaviour {
             customKierunek = true;
             kierunek = kierunekRuchu;
             going = true;
+            Debug.Log(this.gameObject.name);
             m_Agent.destination = destination;
 
         }

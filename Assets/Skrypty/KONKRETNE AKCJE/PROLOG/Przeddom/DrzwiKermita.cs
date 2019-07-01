@@ -34,6 +34,7 @@ public class DrzwiKermita : MonoBehaviour {
     }
     void Start () {
         quest.GetComponent<Quest>().newQuest("Wejdź do domu kaczki");
+        kot.GetComponent<Kot>().moveOff = true;
 	}
     float temp = 10.0f;
     bool don = false;
@@ -53,11 +54,11 @@ public class DrzwiKermita : MonoBehaviour {
         if(endkot)
         {
             activate();
-            
+            kot.GetComponent<Kot>().moveOff = false;
             kot.GetComponent<Kot>().say("Ej mordo, dzięki że mi pomogłeś zejść z tego drzewa, wiesz?", 3.0f, 0, dziena);
             kot.GetComponent<Kot>().say("Co? Drzwi nie mozesz otworzyc?", 2.0f, 1, nieumiesz);
             kot.GetComponent<Kot>().say("Dawaj, ja je otworze!", 1.0f, 2, umiem);
-            kot.GetComponent<Kot>().destination(idztam.transform.position, 3);
+            kot.GetComponent<Kot>().destination(idztam.transform.position, 3, 2);
             if(kot.GetComponent<Kot>().ResetAction(4))
             {
                 global.GetComponent<Global>().setGonbool("wchodziKermit", true);

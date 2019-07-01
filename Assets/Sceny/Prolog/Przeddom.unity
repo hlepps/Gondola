@@ -3013,7 +3013,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh87066
+  m_Name: pb_Mesh53450
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -3627,7 +3627,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 930453304}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.09, y: 3.05, z: 2.5545127}
+  m_LocalPosition: {x: 0.05, y: 3.11, z: -5.37}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -8042,6 +8042,7 @@ GameObject:
   - component: {fileID: 1470581058}
   - component: {fileID: 1470581059}
   - component: {fileID: 1470581060}
+  - component: {fileID: 1470581061}
   m_Layer: 0
   m_Name: Ahus
   m_TagString: Untagged
@@ -8310,6 +8311,20 @@ PolygonCollider2D:
       - {x: 0.39999998, y: -0.32}
       - {x: 0.39999998, y: -0.31}
       - {x: 0.38, y: -0.31}
+--- !u!114 &1470581061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1470581054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d7cbf0acb0718e4e938b4d227ed0ea1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  setName: "Jaki\u015B typ"
+  thisname: "Jaki\u015B typ"
+  disabled: 0
 --- !u!1 &1481281367
 GameObject:
   m_ObjectHideFlags: 0
@@ -8964,7 +8979,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh27930
+  m_Name: pb_Mesh53652
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -9422,7 +9437,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2058221769}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.82, y: -4.98, z: -3.7}
+  m_LocalPosition: {x: -5.95, y: -3.23, z: -3.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -9527,11 +9542,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4265807444336660, guid: 389c4bfd16cd8c14b9e6da5fd8051eb1, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 0.25
+      value: 0.27
       objectReference: {fileID: 0}
     - target: {fileID: 4265807444336660, guid: 389c4bfd16cd8c14b9e6da5fd8051eb1, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 3.9
+      value: 3.51
       objectReference: {fileID: 0}
     - target: {fileID: 4265807444336660, guid: 389c4bfd16cd8c14b9e6da5fd8051eb1, type: 2}
       propertyPath: m_LocalPosition.z
@@ -9557,6 +9572,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 9
       objectReference: {fileID: 0}
+    - target: {fileID: 33111245601834082, guid: 389c4bfd16cd8c14b9e6da5fd8051eb1,
+        type: 2}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 114199977881839274, guid: 389c4bfd16cd8c14b9e6da5fd8051eb1,
         type: 2}
       propertyPath: Global
@@ -9572,11 +9592,6 @@ Prefab:
       propertyPath: sceneManager
       value: 
       objectReference: {fileID: 1810270538}
-    - target: {fileID: 33111245601834082, guid: 389c4bfd16cd8c14b9e6da5fd8051eb1,
-        type: 2}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 1247281994535600, guid: 389c4bfd16cd8c14b9e6da5fd8051eb1, type: 2}
       propertyPath: m_Name
       value: kot steryd

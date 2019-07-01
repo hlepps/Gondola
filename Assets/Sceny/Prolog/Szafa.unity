@@ -1080,6 +1080,11 @@ Prefab:
       propertyPath: m_textInfo.pageCount
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114199977881839274, guid: 389c4bfd16cd8c14b9e6da5fd8051eb1,
+        type: 2}
+      propertyPath: moveOff
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 389c4bfd16cd8c14b9e6da5fd8051eb1, type: 2}
   m_IsPrefabAsset: 0

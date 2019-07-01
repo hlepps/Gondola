@@ -2046,6 +2046,30 @@ Prefab:
       propertyPath: opcjeButton
       value: 
       objectReference: {fileID: 941869588}
+    - target: {fileID: 1946989470374538, guid: 3929a3531f1ba8a4f90043f221aee844, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 33494001139419578, guid: 3929a3531f1ba8a4f90043f221aee844,
+        type: 2}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114273425599908218, guid: 3929a3531f1ba8a4f90043f221aee844,
+        type: 2}
+      propertyPath: m_havePropertiesChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114273425599908218, guid: 3929a3531f1ba8a4f90043f221aee844,
+        type: 2}
+      propertyPath: m_isInputParsingRequired
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114821544817880132, guid: 3929a3531f1ba8a4f90043f221aee844,
+        type: 2}
+      propertyPath: m_Navigation.m_Mode
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3929a3531f1ba8a4f90043f221aee844, type: 2}
   m_IsPrefabAsset: 0
